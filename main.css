@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+* {
+    background-color: #FCBCB8;
+
+}
+
+.navbarContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbarItems {
+    background-color: #A188A6;
+    padding: 10px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+}
+
+a, a:link {
+    color:#ADCAD6;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #EFA7A7;
+}
+
+
+.titleContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    background-color: #FFD972;
+    /* width: 250px; */
+ /* padding: 50px; */
+ margin-left: 200px;
+ margin-right: 200px;
+ margin-top: 25px;
+ margin-bottom: 25px;
+}
+
+.titleItem {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* width: 100%; */
+    background-color:#FFD972;
+    /* width: 250px; */
+}
+
+/* Color pallette:
+
+light pastel pink : #FCBCB8
+dusty pastel pink: #EFA7A7
+baby blue: #ADCAD6
+pastel yellow:#FFD972
+muted violet: #A188A6 */
+
+h1, h2 {
+    font-family: 'Lobster', cursive;
+    
+    font-size: 100px;
+}
