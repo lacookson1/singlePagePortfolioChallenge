@@ -30,7 +30,7 @@ a:visited {
 }
 
 a:hover {
-    color: #EFA7A7;
+    color: #ADCAD6;
 }
 
 
@@ -70,4 +70,9 @@ h1, h2 {
     font-family: 'Lobster', cursive;
     
     font-size: 100px;
+
+}
+
+.titleContainer :hover {
+    color: #ADCAD6;
 }
